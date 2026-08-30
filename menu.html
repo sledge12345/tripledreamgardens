@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu — TD Gardens Resort Karatina</title>
+<meta name="description" content="The full TD Gardens Resort menu — Kenyan classics, grills, bites and sharing bundles, plus the full bar list of beers, wine, tots and hard liquor.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand brand-logo"><img src="assets/img/brand/brand-logo.png" alt="TD Gardens Resort — Triple Dream Gardens, Karatina" width="120" height="120" loading="eager"></a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html" aria-current="page">Menu</a>
+      <a href="gardens.html">Gardens &amp; Events</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html#enquire" class="btn btn-solid">Reserve a table</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="wrap">
+      <span class="eyebrow">The menu</span>
+      <h1>Everything on the board, in one place.</h1>
+      <p class="lede">Every price here matches what's on the printed menu in the gardens. Switch between Food and Drinks, or search for something specific — a dish, a drink, a brand.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="menu-tabs" role="tablist" aria-label="Menu category">
+        <button class="menu-tab" data-tab="food" role="tab">Food</button>
+        <button class="menu-tab" data-tab="drinks" role="tab">Drinks</button>
+      </div>
+
+      <div class="menu-search">
+        <label for="menu-search-input">Search the menu</label>
+        <input id="menu-search-input" type="text" placeholder="Try “tilapia”, “tusker”, “wine”…" autocomplete="off">
+      </div>
+
+      <!-- Panels are rendered here by assets/js/main.js, reading assets/js/menu-data.js.
+           To change any item or price, edit menu-data.js — this markup never needs to change. -->
+      <div id="menu-panels" class="menu-panels"></div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Bringing a group? Ask about the bundles.</h2>
+      <p class="lede">Sharing platters for 2 to 5 people, built to order at the kitchen.</p>
+      <a href="contact.html#enquire" class="btn">Reserve a table</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">TD Gardens Resort</a>
+        <p>A garden restaurant and bar just off the Nairobi–Nyeri highway, Karatina, Nyeri County.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gardens.html">Gardens &amp; Events</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="contact.html">Contact &amp; directions</a></li>
+          <li><a href="contact.html#enquire">Reserve a table</a></li>
+          <li><a href="tel:+254705126101">0705 126 101</a></li>
+          <li><a href="https://form.jotform.com/262054660515049" target="_blank" rel="noopener">Leave feedback</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://www.tiktok.com/@tdgardenresort" target="_blank" rel="noopener">TikTok — @tdgardenresort</a></li>
+          <li><a href="https://www.facebook.com/tripledream.gardens/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© <span data-year></span> TD Gardens Resort, Karatina.</small>
+      <small>M-Pesa Buy Goods 8556616 — Triple Dream Gardens</small>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/menu-data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
